@@ -17,24 +17,32 @@ nav ul {
     
     display: flex;
     justify-content: center;
-    list-style: none
+    list-style: none;
+    
 }
 
 nav ul li{
     
     padding: 10px 15px;
+    margin: 10px;
+    font-size: 30px;
+    text-decoration: none;
+    color: azure;
+    cursor: pointer;
+    border: outset 2px ;
+    border-radius: 10px;
     
     
 }
 
-nav ul li a{
+/* nav ul li a{
     font-size: 30px;
     text-decoration: none;
     color: azure;
     padding: 5px;
     border: outset 2px ;
     border-radius: 10px;
-}
+} */
 
 hr{
     display: none;
@@ -47,12 +55,19 @@ hr{
     width: 100%;
     max-width: 800px;
     overflow: hidden;
-    padding: 20px;
+    padding: 30px;
+    
     margin: 0 auto;
 
     border-bottom: solid 2px;
     border-radius: 10px;
+
+    animation: fade  1s ;    
 }
+
+@keyframes fade {
+        50% {opacity:0;}
+      }
 
 .img{
     
@@ -100,10 +115,14 @@ hr{
         text-align: center;
     }
     
-    nav ul li a{
+    nav ul li {
         font-size: 20px;
         
     }
+    /* nav ul li a{
+        font-size: 20px;
+         
+    }*/
 
     hr{
         display: block;

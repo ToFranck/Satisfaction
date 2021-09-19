@@ -20,24 +20,47 @@
         </div>
     </header>
 
-    <nav>
+    <nav id="filters">
         <ul>
-            <li><a href="">Renders</a></li> <hr>
-            <li><a href="">Videos / Animations</a></li> <hr>
-            <li><a href="">Projects</a></li>    <hr>
-            <li><a href="">LD / GH / IG</a></li>    <hr>
+            <!-- <li class="filter active" data-filter="all">All</li>              <hr> -->
+            <li class="filter" data-filter="renders">Renders</li>              <hr>
+            <li class="filter" data-filter="video">Videos / Animations</li>    <hr>
+            <li class="filter" data-filter="project">Projects</li>             <hr>
+            <li class="filter" data-filter="rs">RS</li>                        <hr>
         </ul>
     </nav>
 
     <main>
-        <div class="box">
+        <div class="box renders">
+            <img src="https://mobile-img.lpcdn.ca/lpca/924x/r3996/442dba2ec46933fd8a3f10cbe5575e53.jpeg" class="img">
+            <h3 class="titrep">Render 1 </h3>
+            <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem sunt maxime veniam veritatis, error suscipit, sint fugit unde earum corporis sit doloremque officiis quam pariatur dicta? Dolorum distinctio eveniet architecto!</p>
+        </div>
+
+        <div class="box project">
             <img src="https://mobile-img.lpcdn.ca/lpca/924x/r3996/442dba2ec46933fd8a3f10cbe5575e53.jpeg" class="img">
             <h3 class="titrep">Project 1 </h3>
+            <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem sunt maxime veniam veritatis, error suscipit, sint fugit unde earum corporis sit doloremque officiis quam pariatur dicta? Dolorum distinctio eveniet architecto!</p>
+        </div>
+
+        <div class="box video">
+            <img src="https://mobile-img.lpcdn.ca/lpca/924x/r3996/442dba2ec46933fd8a3f10cbe5575e53.jpeg" class="img">
+            <h3 class="titrep">video 1 </h3>
+            <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem sunt maxime veniam veritatis, error suscipit, sint fugit unde earum corporis sit doloremque officiis quam pariatur dicta? Dolorum distinctio eveniet architecto!</p>
+        </div>
+
+        
+
+        <div class="box rs">
+            <img src="https://mobile-img.lpcdn.ca/lpca/924x/r3996/442dba2ec46933fd8a3f10cbe5575e53.jpeg" class="img">
+            <h3 class="titrep">RS </h3>
             <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem sunt maxime veniam veritatis, error suscipit, sint fugit unde earum corporis sit doloremque officiis quam pariatur dicta? Dolorum distinctio eveniet architecto!</p>
         </div>
 
     </main>
 
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="index.js"></script>
 </body>
 </html>
